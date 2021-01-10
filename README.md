@@ -15,10 +15,10 @@ UI, Score System, Character Selection System, Button System/Animation, Music/Sou
 ## Screenshots
 
 <p float="left">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/master/ScreenShots/Screenshot-1.png" width="20%" height="20%">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/master/ScreenShots/Screenshot-2.png" width="20%" height="20%">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/master/ScreenShots/Screenshot-3.png" width="20%" height="20%">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/master/ScreenShots/Screenshot-4.png" width="20%" height="20%">
+<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-1.png" width="20%" height="20%">
+<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-2.png" width="20%" height="20%">
+<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-3.png" width="20%" height="20%">
+<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-4.png" width="20%" height="20%">
 </p>
 
 ## Game Description
