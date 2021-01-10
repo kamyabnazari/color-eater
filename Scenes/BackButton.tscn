@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Styles/ButtonsSquare.tres" type="StyleBox" id=1]
+[ext_resource path="res://Scripts/BackButton.gd" type="Script" id=2]
+[ext_resource path="res://Sprites/icon_return_pressed.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/icon_return.png" type="Texture" id=5]
+
+[node name="BackButton" type="Panel"]
+margin_left = 30.0
+margin_top = 30.0
+margin_right = 160.0
+margin_bottom = 118.0
+rect_scale = Vector2( 0.7, 0.7 )
+custom_styles/panel = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TheBackButton" type="TextureButton" parent="."]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 251.0
+margin_bottom = 166.0
+rect_scale = Vector2( 0.5, 0.5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 4 )
+expand = true
+stretch_mode = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}

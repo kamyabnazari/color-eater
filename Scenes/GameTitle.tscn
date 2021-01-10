@@ -1,0 +1,79 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Fonts/MainTitle.tres" type="DynamicFont" id=1]
+
+[sub_resource type="Animation" id=1]
+resource_name = "color_change"
+length = 10.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Eater:custom_colors/font_color_shadow")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 0, 0, 1 ), Color( 1, 0.494118, 0, 1 ), Color( 0.803922, 1, 0, 1 ), Color( 0.219608, 1, 0, 1 ), Color( 0, 1, 0.505882, 1 ), Color( 0, 0.929412, 1, 1 ), Color( 0, 0.368627, 1, 1 ), Color( 0.360784, 0, 1, 1 ), Color( 0.945098, 0, 1, 1 ), Color( 1, 0, 0.470588, 1 ), Color( 1, 0, 0.164706, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Color:custom_colors/font_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 0, 0, 1 ), Color( 1, 0.494118, 0, 1 ), Color( 0.803922, 1, 0, 1 ), Color( 0.219608, 1, 0, 1 ), Color( 0, 1, 0.505882, 1 ), Color( 0, 0.929412, 1, 1 ), Color( 0, 0.368627, 1, 1 ), Color( 0.360784, 0, 1, 1 ), Color( 0.945098, 0, 1, 1 ), Color( 1, 0, 0.470588, 1 ), Color( 1, 0, 0.164706, 1 ) ]
+}
+
+[node name="GameTitle" type="Control"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Eater" type="Label" parent="."]
+margin_left = 280.0
+margin_top = 140.0
+margin_right = 580.0
+margin_bottom = 246.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0.164706, 0.211765, 0.231373, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 1, 0, 0, 1 )
+custom_constants/shadow_offset_x = 3
+custom_constants/shadow_offset_y = 3
+text = "Eater"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Color" type="Label" parent="."]
+margin_left = 12.0
+margin_top = 140.0
+margin_right = 286.0
+margin_bottom = 246.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0.938617, 0.652485, 0, 1 )
+custom_constants/shadow_offset_x = 3
+custom_constants/shadow_offset_y = 3
+text = "Color"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "color_change"
+anims/color_change = SubResource( 1 )

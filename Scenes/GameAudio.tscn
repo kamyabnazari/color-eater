@@ -1,0 +1,43 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Sound-Effects/confirmation_track_01.wav" type="AudioStream" id=1]
+[ext_resource path="res://Music/music_track_02.ogg" type="AudioStream" id=2]
+[ext_resource path="res://Sound-Effects/click_track_01.wav" type="AudioStream" id=3]
+[ext_resource path="res://Sound-Effects/explotion_track_01.wav" type="AudioStream" id=4]
+[ext_resource path="res://Sound-Effects/switch_track_01.wav" type="AudioStream" id=5]
+[ext_resource path="res://Sound-Effects/toggle_track_01.wav" type="AudioStream" id=6]
+[ext_resource path="res://Music/music_track_01.ogg" type="AudioStream" id=7]
+
+[node name="GameAudio" type="Node"]
+
+[node name="Effect" type="Node" parent="."]
+
+[node name="Click" type="AudioStreamPlayer" parent="Effect"]
+stream = ExtResource( 3 )
+bus = "Effect"
+
+[node name="Confirm" type="AudioStreamPlayer" parent="Effect"]
+stream = ExtResource( 1 )
+bus = "Effect"
+
+[node name="Switch" type="AudioStreamPlayer" parent="Effect"]
+stream = ExtResource( 5 )
+bus = "Effect"
+
+[node name="Toggle" type="AudioStreamPlayer" parent="Effect"]
+stream = ExtResource( 6 )
+bus = "Effect"
+
+[node name="Explosion" type="AudioStreamPlayer" parent="Effect"]
+stream = ExtResource( 4 )
+volume_db = -10.0
+
+[node name="Music" type="Node" parent="."]
+
+[node name="MusicMainMenu" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource( 2 )
+bus = "Music"
+
+[node name="MusicGame" type="AudioStreamPlayer" parent="Music"]
+stream = ExtResource( 7 )
+bus = "Music"

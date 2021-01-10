@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Fonts/PageTitles.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scripts/Scoreboard.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/SceneTransition.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/BackButton.tscn" type="PackedScene" id=4]
+
+[node name="Scoreboard" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Elements" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="ColorRect" parent="Elements"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.996078, 0.807843, 0.658824, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scoreboard" type="Label" parent="Elements"]
+anchor_right = 1.0
+margin_left = 25.0
+margin_top = 120.0
+margin_right = -21.0
+margin_bottom = 226.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0.164706, 0.211765, 0.231373, 1 )
+text = "Scoreboard"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackButton" parent="Elements" instance=ExtResource( 4 )]
+
+[node name="SceneTransition" parent="." instance=ExtResource( 3 )]
