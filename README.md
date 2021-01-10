@@ -8,7 +8,9 @@
 
 ## The Project
 
-A simple demo project for mobile games in Godot called Color Eater is there for you to use it as a reference project on creating:
+A simple demo project for mobile games in Godot called Color Eater. It is there for it to be used as a reference project on mobile game creation. This project showcases how to achieve many features in Godot.
+
+Features:
 
 UI, Score System, Character Selection System, Button System/Animation, Music/Sound-Effects/Vibration Toggles, Scene changes and a simple game with particle system for you to understand the game loop and how those informations are saved on mobile.
 
