@@ -4,7 +4,7 @@
 
 **Current Phase:** Prototype
 
-**Version** 1.0
+**Version** 1.0.0
 
 ## The Project
 
