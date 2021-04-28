@@ -4,7 +4,7 @@
 
 **Current Phase:** Prototype
 
-**Version** 1.0.0
+**Version** 1.1.0
 
 ## The Project
 
@@ -39,7 +39,7 @@ Score System, Scene Changes, Global Variable States, Character Selection System 
 
 **Renderer:** GLES 2.0 (OpenGL ES 2.0)
 
-**Game Engine:** Godot (3.2.3)
+**Game Engine:** Godot (3.3)
 
 ## Rules
 
