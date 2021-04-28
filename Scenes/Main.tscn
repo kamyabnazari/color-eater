@@ -644,6 +644,7 @@ anims/fade_cancel = SubResource( 4 )
 anims/info_pushed = SubResource( 5 )
 
 [node name="SceneTransition" parent="." instance=ExtResource( 2 )]
+
 [connection signal="button_down" from="NormalElements/TrophySides/TrophyButton" to="." method="_on_TrophyButton_button_down"]
 [connection signal="button_up" from="NormalElements/TrophySides/TrophyButton" to="." method="_on_TrophyButton_button_up"]
 [connection signal="button_down" from="NormalElements/ShopSides/ShopButton" to="." method="_on_ShopButton_button_down"]
