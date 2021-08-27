@@ -45,24 +45,6 @@ Score System, Scene Changes, Global Variable States, Character Selection System 
 
 Open an issue and add the right tag if you have questions, problems and suggestions. If you have found a bug, describe it in detail and try to give solutions.
 
-## Community
-
-Join us on any of your preferred links, let us stay connected
-
-Forum: [Link](https://kamyworldproductions.com/forum/)
-
-Discord:  [Link](https://discord.com/invite/pPA7K7B)
-
-Facebook: [Link](https://www.facebook.com/kamyworldproductions)
-
-Github Team: [Link](https://github.com/Kamy-World-Productions)
-
-Youtbe: [Link](https://www.youtube.com/channel/UC9w2S5iLygv49S2Yymukq9g)
-
-Twitter: [Link](https://twitter.com/KamyWorldPro)
-
-Instagram: [Link](https://www.instagram.com/kamyworldproductions/)
-
 ## License
 
 MIT
