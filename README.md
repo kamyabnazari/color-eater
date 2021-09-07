@@ -14,8 +14,6 @@ Features:
 
 UI, Score System, Character Selection System, Button System/Animation, Music/Sound-Effects/Vibration Toggles, Scene changes and a simple game with particle system for you to understand the game loop and how those informations are saved on mobile.
 
-#### Demo Video: [Link](https://www.youtube.com/watch?v=n8AI7U91cME&t=6s)
-
 ## Screenshots
 
 <p float="left">
