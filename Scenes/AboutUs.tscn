@@ -13,9 +13,6 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Elements" type="Control" parent="."]
 anchor_right = 1.0
@@ -38,8 +35,8 @@ margin_left = 100.0
 margin_top = 120.0
 margin_right = -87.0
 margin_bottom = 226.0
-custom_fonts/font = ExtResource( 1 )
 custom_colors/font_color = Color( 0.164706, 0.211765, 0.231373, 1 )
+custom_fonts/font = ExtResource( 1 )
 text = "About Us"
 align = 1
 valign = 1
@@ -55,9 +52,9 @@ margin_left = 50.0
 margin_top = 256.0
 margin_right = 522.0
 margin_bottom = 810.0
-custom_fonts/normal_font = ExtResource( 8 )
 custom_colors/default_color = Color( 0, 0, 0, 1 )
-text = "This is color Eater an open source game project created by Kamy World Productions in part of an educational Project to teach anybody how to use godot."
+custom_fonts/normal_font = ExtResource( 8 )
+text = "This is color Eater an open source game project created by Kamyab Nazari in part of an educational Project to teach anybody how to use godot."
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -88,5 +85,6 @@ __meta__ = {
 }
 
 [node name="SceneTransition" parent="." instance=ExtResource( 3 )]
+
 [connection signal="button_down" from="Elements/WebsiteSides/WebsiteLinkButton" to="." method="_on_WebsiteLinkButton_button_down"]
 [connection signal="button_up" from="Elements/WebsiteSides/WebsiteLinkButton" to="." method="_on_WebsiteLinkButton_button_up"]

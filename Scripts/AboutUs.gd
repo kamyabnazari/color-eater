@@ -32,7 +32,7 @@ func _on_WebsiteLinkButton_button_down():
 func _on_WebsiteLinkButton_button_up():
 	sound_Click.play()
 	button_is_pushed("Elements/WebsiteSides", "res://Styles/ButtonsRound.tres")
-	var validate = OS.shell_open("https://kamyworldproductions.com")
+	var validate = OS.shell_open("https://github.com/kamyab-nazari/")
 	# It should give a on screen message that it is note able to visit
 	if(validate != OK):
 		print("System does not support OS Shell command")

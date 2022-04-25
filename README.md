@@ -1,10 +1,10 @@
-# Color-Eater
+# Color Eater Demo
 
 **Status:** Demo Project
 
 **Current Phase:** Prototype
 
-**Version** 1.1.0
+**Version** 1.2.0
 
 ## The Project
 
@@ -27,8 +27,6 @@ UI, Score System, Character Selection System, Button System/Animation, Music/Sou
 
 **Disclaimer:** The Project is shaped by you guys, so anything is possible, but for such project to come to an end we have to set some rules and goals. Give suggestions and shape this project from the beginning.
 
-Score System, Scene Changes, Global Variable States, Character Selection System and more ...
-
 ## Technical Details
 
 **Platforms:** Android and IOS
@@ -37,7 +35,7 @@ Score System, Scene Changes, Global Variable States, Character Selection System 
 
 **Renderer:** GLES 2.0 (OpenGL ES 2.0)
 
-**Game Engine:** Godot (3.3)
+**Game Engine:** Godot (3.4.4)
 
 ## Rules
 
