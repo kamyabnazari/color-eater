@@ -1,13 +1,13 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://Fonts/PageTitles.tres" type="DynamicFont" id=1]
-[ext_resource path="res://Scripts/AboutUs.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/SceneTransition.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/BackButton.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Sprites/icon_link_pressed.png" type="Texture" id=5]
-[ext_resource path="res://Sprites/icon_link.png" type="Texture" id=6]
-[ext_resource path="res://Styles/ButtonsRound.tres" type="StyleBox" id=7]
-[ext_resource path="res://Fonts/DetailText.tres" type="DynamicFont" id=8]
+[ext_resource path="res://fonts/PageTitles.tres" type="DynamicFont" id=1]
+[ext_resource path="res://scripts/AboutUs.gd" type="Script" id=2]
+[ext_resource path="res://scenes/SceneTransition.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/BackButton.tscn" type="PackedScene" id=4]
+[ext_resource path="res://sprites/icon_link_pressed.png" type="Texture" id=5]
+[ext_resource path="res://sprites/icon_link.png" type="Texture" id=6]
+[ext_resource path="res://styles/ButtonsRound.tres" type="StyleBox" id=7]
+[ext_resource path="res://fonts/DetailText.tres" type="DynamicFont" id=8]
 
 [node name="AboutUs" type="Control"]
 anchor_right = 1.0

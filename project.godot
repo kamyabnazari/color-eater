@@ -15,15 +15,15 @@ _global_script_class_icons={
 [application]
 
 config/name="Color Eater"
-run/main_scene="res://Scenes/Main.tscn"
+run/main_scene="res://scenes/Main.tscn"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
 
 [autoload]
 
-SceneManager="*res://Scripts/SceneManager.gd"
-Globals="*res://Scripts/Globals.gd"
-GameAudio="*res://Scenes/GameAudio.tscn"
+SceneManager="*res://scripts/SceneManager.gd"
+Globals="*res://scripts/Globals.gd"
+GameAudio="*res://scenes/GameAudio.tscn"
 
 [display]
 

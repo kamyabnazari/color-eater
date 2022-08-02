@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 # Fade in and out animation between scenes
 extends ColorRect
 

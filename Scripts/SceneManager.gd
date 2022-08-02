@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 # The SceneManager is an Autoloaded Singletone that initiates propare 
 # Scene changes through out the application.
 extends Node

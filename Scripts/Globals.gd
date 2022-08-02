@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 # All of this Variables have to be saved into a file save system and send to
 # google play services to be stored online for better security (Save Games).
 extends Node

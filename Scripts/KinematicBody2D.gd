@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 extends KinematicBody2D
 
 export (int) var speed = 8

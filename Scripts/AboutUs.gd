@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 # The about us page with an OS function to open web browesers.
 extends Control
 
@@ -17,21 +19,21 @@ func button_is_pushed(target, style):
 	button_style.set('custom_styles/panel', style_pushed)
 
 func _on_BackButton_button_down():
-	button_is_pushed("Elements/BackButton", "res://Styles/ButtonsSquare_Pushed.tres")
+	button_is_pushed("Elements/BackButton", "res://styles/ButtonsSquare_Pushed.tres")
 
 func _on_BackButton_button_up():
 	$Elements/BackButton.backAction()
-	button_is_pushed("Elements/BackButton", "res://Styles/ButtonsSquare.tres")
+	button_is_pushed("Elements/BackButton", "res://styles/ButtonsSquare.tres")
 	var a_player = transition.fade_in()
 	yield(a_player, "animation_finished")
 	SceneManager.goto_scene("res://Scenes/Main.tscn")
 
 func _on_WebsiteLinkButton_button_down():
-	button_is_pushed("Elements/WebsiteSides", "res://Styles/ButtonsRound_Pushed.tres")
+	button_is_pushed("Elements/WebsiteSides", "res://styles/ButtonsRound_Pushed.tres")
 
 func _on_WebsiteLinkButton_button_up():
 	sound_Click.play()
-	button_is_pushed("Elements/WebsiteSides", "res://Styles/ButtonsRound.tres")
+	button_is_pushed("Elements/WebsiteSides", "res://styles/ButtonsRound.tres")
 	var validate = OS.shell_open("https://github.com/kamyab-nazari/")
 	# It should give a on screen message that it is note able to visit
 	if(validate != OK):

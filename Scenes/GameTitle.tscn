@@ -1,6 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Fonts/MainTitle.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fonts/MainTitle.tres" type="DynamicFont" id=1]
+
 
 [sub_resource type="Animation" id=1]
 resource_name = "color_change"

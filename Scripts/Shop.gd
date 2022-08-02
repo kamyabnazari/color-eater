@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 # Shop System
 extends Control
 
@@ -16,11 +18,11 @@ func button_is_pushed(target, style):
 	button_style.set('custom_styles/panel', style_pushed)
 
 func _on_BackButton_button_down():
-	button_is_pushed("Elements/BackButton", "res://Styles/ButtonsSquare_Pushed.tres")
+	button_is_pushed("Elements/BackButton", "res://styles/ButtonsSquare_Pushed.tres")
 
 func _on_BackButton_button_up():
 	$Elements/BackButton.backAction()
-	button_is_pushed("Elements/BackButton", "res://Styles/ButtonsSquare.tres")
+	button_is_pushed("Elements/BackButton", "res://styles/ButtonsSquare.tres")
 	var a_player = transition.fade_in()
 	yield(a_player, "animation_finished")
-	SceneManager.goto_scene("res://Scenes/Main.tscn")
+	SceneManager.goto_scene("res://scenes/Main.tscn")

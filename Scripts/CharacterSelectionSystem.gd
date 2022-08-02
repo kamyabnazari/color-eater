@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 extends Control
 
 onready var confirm = GameAudio.get_node("Effect/Confirm")

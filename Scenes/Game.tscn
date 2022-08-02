@@ -1,11 +1,11 @@
 [gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://Scripts/Game.gd" type="Script" id=1]
-[ext_resource path="res://Scripts/KinematicBody2D.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/SceneTransition.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Sprites/Immortal_Star.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/icon_press.png" type="Texture" id=5]
-[ext_resource path="res://Fonts/GameScore.tres" type="DynamicFont" id=7]
+[ext_resource path="res://scripts/Game.gd" type="Script" id=1]
+[ext_resource path="res://scripts/KinematicBody2D.gd" type="Script" id=2]
+[ext_resource path="res://scenes/SceneTransition.tscn" type="PackedScene" id=3]
+[ext_resource path="res://sprites/Immortal_Star.png" type="Texture" id=4]
+[ext_resource path="res://sprites/icon_press.png" type="Texture" id=5]
+[ext_resource path="res://fonts/GameScore.tres" type="DynamicFont" id=7]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 80.0
@@ -50,8 +50,8 @@ __meta__ = {
 [node name="Score" type="Label" parent="GameElements"]
 margin_right = 576.0
 margin_bottom = 162.0
-custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 7 )
 text = "0"
 align = 1
 valign = 1
@@ -117,4 +117,5 @@ margin_bottom = 1024.0
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "rotate"
 anims/rotate = SubResource( 4 )
+
 [connection signal="pressed" from="TouchScreenButton" to="." method="_on_TouchScreenButton_pressed"]

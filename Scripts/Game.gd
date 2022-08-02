@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 extends Node2D
 
 onready var transition = $SceneTransition
@@ -6,7 +8,7 @@ onready var player = $GameElements/KinematicBody2D/Player
 onready var touchButton = $TouchScreenButton
 onready var musicMain = GameAudio.get_node("Music/MusicMainMenu")
 onready var musicGame = GameAudio.get_node("Music/MusicGame")
-onready var playerChar = load(String("res://Sprites/Player_") + String(Globals.curPlayer) + ".png")
+onready var playerChar = load(String("res://sprites/Player_") + String(Globals.curPlayer) + ".png")
 
 func _ready():
 	player.texture = playerChar
@@ -39,7 +41,7 @@ func _on_loss():
 	Globals.playing = false
 	var a_player = transition.fade_in()
 	yield(a_player, "animation_finished")
-	SceneManager.goto_scene("res://Scenes/Main.tscn")
+	SceneManager.goto_scene("res://scenes/Main.tscn")
 
 func _on_TouchScreenButton_pressed():
 	time = 0

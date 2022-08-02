@@ -1,9 +1,10 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Styles/ButtonsSquare.tres" type="StyleBox" id=1]
-[ext_resource path="res://Scripts/BackButton.gd" type="Script" id=2]
-[ext_resource path="res://Sprites/icon_return_pressed.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/icon_return.png" type="Texture" id=5]
+[ext_resource path="res://styles/ButtonsSquare.tres" type="StyleBox" id=1]
+[ext_resource path="res://scripts/BackButton.gd" type="Script" id=2]
+[ext_resource path="res://sprites/icon_return_pressed.png" type="Texture" id=4]
+[ext_resource path="res://sprites/icon_return.png" type="Texture" id=5]
+
 
 [node name="BackButton" type="Panel"]
 margin_left = 30.0

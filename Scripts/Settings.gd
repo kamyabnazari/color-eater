@@ -1,3 +1,5 @@
+# Author Kamyab Nazari - 2022
+
 extends Node2D
 
 func move(target):
