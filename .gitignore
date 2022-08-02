@@ -12,8 +12,8 @@ data_*/
 
 # Asset .import ignores
 icon.png.import
-Images/*.import
-Music/*.import
-ScreenShots/*.import
-Sound-Effects/*.import
-Sprites/*.import
+images/*.import
+music/*.import
+screenshots/*.import
+sound-effects/*.import
+sprites/*.import

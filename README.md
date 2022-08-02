@@ -2,9 +2,9 @@
 
 **Status:** Demo Project
 
-**Current Phase:** Prototype
+**Current Phase:** Demo
 
-**Version** 1.2.0
+**Version** 1.3.0
 
 ## The Project
 
@@ -17,10 +17,10 @@ UI, Score System, Character Selection System, Button System/Animation, Music/Sou
 ## Screenshots
 
 <p float="left">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-1.png" width="20%" height="20%">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-2.png" width="20%" height="20%">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-3.png" width="20%" height="20%">
-<img src="https://github.com/Kamy-World-Productions/Color-Eater-Demo/blob/main/ScreenShots/Screenshot-4.png" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-1.png" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-2.png" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-3.png" width="20%" height="20%">
+<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-4.png" width="20%" height="20%">
 </p>
 
 ## Game Description
@@ -35,7 +35,7 @@ UI, Score System, Character Selection System, Button System/Animation, Music/Sou
 
 **Renderer:** GLES 2.0 (OpenGL ES 2.0)
 
-**Game Engine:** Godot (3.4.4)
+**Game Engine:** Godot (3.4.5)
 
 ## Rules
 
