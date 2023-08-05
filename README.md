@@ -1,4 +1,4 @@
-# Color Eater Demo
+# Color Eater
 
 **Status:** Demo Project
 
