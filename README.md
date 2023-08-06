@@ -1,5 +1,7 @@
 # Color Eater
 
+![Banner Image](/readme-screenshot.jpg)
+
 **Status:** Demo Project
 
 **Current Phase:** Demo
@@ -17,10 +19,10 @@ UI, Score System, Character Selection System, Button System/Animation, Music/Sou
 ## Screenshots
 
 <p float="left">
-<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-1.png" width="20%" height="20%">
-<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-2.png" width="20%" height="20%">
-<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-3.png" width="20%" height="20%">
-<img src="https://github.com/kamyab-nazari/color-eater-demo/blob/main/screenshots/Screenshot-4.png" width="20%" height="20%">
+<img src="screenshots/Screenshot-1.png" width="20%" height="20%">
+<img src="screenshots/Screenshot-2.png" width="20%" height="20%">
+<img src="screenshots/Screenshot-3.png" width="20%" height="20%">
+<img src="screenshots/Screenshot-4.png" width="20%" height="20%">
 </p>
 
 ## Game Description
