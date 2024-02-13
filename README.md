@@ -1,6 +1,6 @@
 # Color Eater
 
-![Banner Image](/readme-screenshot.jpg)
+![Banner Image](cover-open-source-color-eater.webp)
 
 **Status:** Demo Project
 
